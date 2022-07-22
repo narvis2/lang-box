@@ -18,7 +18,7 @@ This project gets your recent commits from your activities fetched from GitHub A
 1. Create a new public GitHub Gist (https://gist.github.com/)
 1. Create a token with the `gist` scope and copy it. (https://github.com/settings/tokens/new)
 
-   - And if you would like to include commits in private repos, also add `repo` scope.
+   - And if you would like to include commits in private repos, also add `repo` scope1
 
      > Enable `repo` scope seems **DANGEROUS**, but secrets are not passed to workflows that are triggered by a pull request from a fork (https://docs.github.com/en/actions/reference/encrypted-secrets)
 
